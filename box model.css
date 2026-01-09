@@ -1,0 +1,212 @@
+/* NavBar styles */
+.navbar {
+    background: #00b7ff;
+    background: linear-gradient(90deg, rgba(0, 183, 255, 1) 0%, rgba(75, 197, 149, 1) 43%, rgba(87, 199, 133, 1) 50%, rgba(229, 220, 86, 1) 97%, rgba(237, 221, 83, 1) 100%);
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px 12px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+.navbar-links li {
+    margin-left: 20px;
+}
+.navbar-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar-links a:hover {
+    color: #ddd;
+}
+/* Mobile Menu Togggle */
+.navbar-checkbox {
+    display: none;
+}
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.bg1 {
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: center;
+    text-align: center;
+    width: 75%;
+    padding: 20px;
+    margin-top: 2rem;
+}
+
+.box1 {    
+    background-color: white;
+    width: 10rem;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px lightblue;
+    
+}
+.box2 {    
+    background-color: white;
+    width: 10rem;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px lightblue;
+    
+}
+.box3 {    
+    background-color: white;
+    width: 10rem;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px lightblue;
+    
+}
+.box4 {    
+    background-color: white;
+    width: 10rem;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px lightblue;
+}
+
+.img {
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 2px;
+    margin-top: 9px;
+}
+
+p {
+    font-size: 10px;
+    width: 8rem;
+    margin-left: 16.3px;
+    margin-bottom: 15px;
+}
+
+#img {
+    height: 10px;
+    width: 10px;
+}
+
+.icon {
+    margin-left: 3px;
+}
+
+button {
+    height: 25px;
+    width: 8rem;
+    border-radius: 70px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(212, 197, 197);
+    color: rgb(0, 0, 0);
+    transition: 2s;
+}
+
+.bg2 {
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: center;
+    text-align: center;
+    width: 75%;
+    padding: 20px;
+    margin-top: 3rem;
+}
+
+.box5 {    
+    background-color: white;
+    width: 10rem;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px lightblue;
+    
+}
+.box6 {    
+    background-color: white;
+    width: 10rem;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px lightblue;
+    
+}
+.box7 {    
+    background-color: white;
+    width: 10rem;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px lightblue;
+    
+}
+.box8 {    
+    background-color: white;
+    width: 10rem;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px lightblue;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 2px;
+    margin-top: 9px;
+}
+
+.btn {
+    height: 25px;
+    width: 8rem;
+    border-radius: 70px;
+    border: none;
+    background-color: rgb(107, 138, 168);
+    color: white;
+    margin-top: 16px;
+}
+
+button:hover {
+    background-color: rgb(212, 197, 197);
+    color: rgb(0, 0, 0);
+    transition: 2s;
+}
+
+footer {
+    box-shadow: 5px 10px 12px 17px rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 183, 255, 1) 0%, rgba(75, 197, 149, 1) 43%, rgba(87, 199, 133, 1) 50%, rgba(229, 220, 86, 1) 97%, rgba(237, 221, 83, 1) 100%);
+    color: rgb(0, 0, 0);
+    margin-top: 7rem;
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
